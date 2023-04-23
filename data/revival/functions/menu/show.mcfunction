@@ -9,7 +9,7 @@ execute if score !count counter <= #zero zero run tellraw @a[scores={revives=1},
 execute if score !count counter <= #zero zero run scoreboard players set @a[scores={revives=1}] revives 0
 
 # Displays all dead
-execute unless score !count counter <= #zero zero run tellraw @a[scores={revives=1},limit=1] {"text": "\nDead players:\n\n","bold":true,"color": "dark_blue"}
+execute unless score !count counter <= #zero zero run tellraw @a[scores={revives=1},limit=1] {"text": "\nDead players:\n\n","bold":true,"color": "dark_red"}
 execute unless score !count counter <= #zero zero run function revival:menu/printlist
 
 # If shown dead people start timer
