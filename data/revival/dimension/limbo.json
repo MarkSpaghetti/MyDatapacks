@@ -1,0 +1,21 @@
+{
+    "type": "revival:limbo",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "minecraft:overworld",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "revival:solitary_meadow",
+        "parameters":{
+          "temperature": -0.8,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0.1
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:totem_of_undying"
+		},
+		"title": "Resurrection Totem  ",
+		"description": ["",{"text":"Dead players have to be revived by a totem of resurrection\n","color":"gold"},{"text":"Resource pack","color":"yellow"},{"text":" required!","color":"green"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "sauce:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

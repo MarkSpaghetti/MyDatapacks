@@ -1,0 +1,40 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 10779049,
+    "fog_color": 9408399,
+    "water_color": 4544898,
+    "water_fog_color": 329011,
+    "grass_color": 4941902,
+    "foliage_color": 7039851
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:skeleton_horse",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 6
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:spring_water"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe":{
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:totem_of_resurrection_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function":"revival:give_totem_of_resurrection"
+    }
+}
